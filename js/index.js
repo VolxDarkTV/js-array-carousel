@@ -2,6 +2,7 @@
 let container = document.getElementsByClassName('items-container');
 container = document.createElement('div').classList.add('item');
 let imageContainer = document.getElementsByClassName('item');
+imageContainer = document.createElement('img');
 
 // let imagesSource = document.createElement('img');
 console.log(container);
