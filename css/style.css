@@ -37,6 +37,11 @@ img{
     position: absolute;
     top: 20px;
     left: 50%;
+
+    cursor: pointer;
+}
+.prev:hover{
+    background-color: gray;
 }
 .next{
     text-align: center;
@@ -49,7 +54,11 @@ img{
     position: absolute;
     bottom: 20px;
     left: 50%;
-
+    
+    cursor: pointer;
+}
+.next:hover{
+    background-color: gray;
 }
 .hidden{
     display: none;
